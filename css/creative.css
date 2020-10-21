@@ -4,6 +4,12 @@ html {
   height: 100%;
 }
 
+.customFont{
+  font-family: 'canterburyregular';
+  font-weight:normal;
+  font-style:normal;
+}
+
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }

@@ -11,6 +11,16 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+    font-family: 'canterburyregular';
+    src: url('../fonts/canterbury-webfont.woff2') format('woff2'),
+         url('../fonts/canterbury-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;

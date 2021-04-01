@@ -44,8 +44,14 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-.bg-primary {
-  background-color: #0084ff !important;
+.bg-primary-change {
+  background: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: black;}
+  to {background-color: brown;}
 }
 
 .bg-dark {
@@ -181,7 +187,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-color: #3149AE;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
